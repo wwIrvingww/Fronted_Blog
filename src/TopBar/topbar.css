@@ -10,6 +10,7 @@
     font-optical-sizing: auto;
     font-weight: auto;
     font-style: normal;
+    z-index: 999;
 }
 
 .topCenter{

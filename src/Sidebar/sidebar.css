@@ -1,6 +1,6 @@
 .sidebar{
     flex: 3px;
-    margin: 20px;
+    margin: 25px;
     padding-bottom: 30px;
     background-color: #fdfbfb;
     border-radius: 10px;
@@ -31,7 +31,7 @@
 
 .sidebarItem > img{
     margin-top: 15px;
-    width: 300px;
+    width: 350px;
     height: auto;
 }
 
