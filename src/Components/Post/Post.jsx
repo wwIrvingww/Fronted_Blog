@@ -8,10 +8,6 @@ export default function Post() {
             alt="" 
             /> 
             <div className="postInfo">
-                <div className="postCats">
-                    <span className="postCat">Category 1</span>
-                    <span className="postCat">Category 2</span>
-                </div>
                 <span className="postTitle">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </span>

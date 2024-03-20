@@ -15,14 +15,14 @@ export default function Sidebar() {
             </p>
           </div>
           <div className="sidebarItem">
-          <span className="sidebarTitle">CATEGORIES</span>
+          <span className="sidebarTitle">Hobbies</span>
           <ul className="sidebarList">
-            <li className="sidebarListItem">CATEGORY1</li>
-            <li className="sidebarListItem">CATEGORY2</li>
-            <li className="sidebarListItem">CATEGORY3</li>
-            <li className="sidebarListItem">CATEGORY4</li>
-            <li className="sidebarListItem">CATEGORY5</li>
-            <li className="sidebarListItem">CATEGORY6</li>
+            <li className="sidebarListItem">Chess</li>
+            <li className="sidebarListItem">Basketball</li>
+            <li className="sidebarListItem">Cooking</li>
+            <li className="sidebarListItem">Creative Writing</li>
+            <li className="sidebarListItem">Fashion</li>
+            <li className="sidebarListItem">Reading</li>
           </ul>
           </div>
           <div className="sidebarItem">

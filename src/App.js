@@ -6,11 +6,12 @@ import Write from './Pages/Write/Write';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 
+
 function App() {
   return (
   <>
-   <Topbar />
-   <Register />
+    <Topbar />
+    <Home />
   </>
   );
 }
