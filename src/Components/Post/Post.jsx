@@ -1,24 +1,21 @@
 import './post.css'
 
-export default function Post() {
+export default function Post({ image, title, description, date }) {
     return (
         <div className='post'>
             <img className='postImg'
-            src="https://lasdeliciasdevivir.net/wp-content/uploads/2019/02/Brownies-Red-Velvet-Receta-Las-Delicias-Del-Buen-Vivir.jpg" 
+            src={image} 
             alt="" 
             /> 
             <div className="postInfo">
                 <span className="postTitle">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    {title}
                 </span>
                 <hr/>
-                <span className="postDate">1 hour ago</span>
+                <span className="postDate"> {date} </span>
             </div>
             <p className='postDesc'>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Aliquam vero deleniti quisquam molestias, voluptatem deserunt, 
-                repudiandae aut ad repellendus culpa accusamus harum praesentium
-                commodi consectetur, hic accusantium corporis animi rerum!
+                {description}
             </p>           
         </div>
     )
